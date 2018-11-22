@@ -13,7 +13,8 @@
     <div class="row h-100 justify-content-center align-items-center">
         <form class="col-4">
             <center>
-                <h1>${hello}</h1>
+                <h1>${start_text}</h1>
+                <button type="button" class="btn btn-outline-success btn-lg">${enter}</button>
             </center>
         </form>
     </div>
