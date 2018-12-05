@@ -2,21 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f4875f-0355-4fbc-b88b-a6ecd4f5846b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFReader_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/metaller/cscience/controllers/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/metaller/cscience/controllers/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/cscience.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/cscience.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/metaller/cscience/controllers/HomeController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/start.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/start.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/MyFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,48 +78,54 @@
     <session id="576400545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="cfm" value="1" />
           <entry key="css" value="3" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="14" />
           <entry key="js" value="5" />
           <entry key="jsp" value="2" />
+          <entry key="log" value="2" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CFML" value="1" />
           <entry key="CSS" value="3" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="14" />
           <entry key="JSP" value="2" />
           <entry key="JavaScript" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="19" />
-          <entry key="gradle" value="73" />
-          <entry key="java" value="390" />
+          <entry key="dummy" value="29" />
+          <entry key="gradle" value="77" />
+          <entry key="java" value="1157" />
           <entry key="jsp" value="421" />
+          <entry key="properties" value="64" />
           <entry key="txt" value="3" />
           <entry key="xml" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="73" />
-          <entry key="JAVA" value="390" />
+          <entry key="Groovy" value="77" />
+          <entry key="JAVA" value="1157" />
           <entry key="JSP" value="421" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Properties" value="64" />
           <entry key="XML" value="144" />
         </counts>
       </usages-collector>
@@ -105,11 +133,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="525">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="30" column="81" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -133,43 +186,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+            <state relative-caret-position="304">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFReader_test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -185,6 +208,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="ColdFusion File" />
       </list>
     </option>
   </component>
@@ -382,9 +406,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6167966290000" />
+        <entry key="$PROJECT_DIR$" value="6169168487000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="864516358" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1382126365" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="776935489" />
       </map>
@@ -584,11 +608,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/start.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/configs/InitConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFReader_test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFReader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.cfm" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java" />
       </list>
     </option>
   </component>
@@ -625,11 +655,6 @@
             <path>
               <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
@@ -705,23 +730,6 @@
               <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -739,23 +747,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultCfmlFileTemplate" value="ColdFusion File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542839851126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544043672286" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build/libs/cscience.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -790,24 +795,84 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration name="cscience [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="war" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.PDFFileReaderTest.NullTeast">
+    <configuration name="PDFFileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFFileReaderTest.NullTeast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <option name="METHOD_NAME" value="NullTeast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFFileReaderTest.loggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <option name="METHOD_NAME" value="loggerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFFileReaderTest.readTeastEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <option name="METHOD_NAME" value="readTeastEmptyString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFFileReaderTest.readTeastWrongFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <option name="METHOD_NAME" value="readTeastWrongFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.15" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
@@ -883,11 +948,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat" />
-      <item itemvalue="Gradle.cscience [war]" />
+      <item itemvalue="JUnit.PDFFileReaderTest.NullTeast" />
+      <item itemvalue="JUnit.PDFFileReaderTest" />
+      <item itemvalue="JUnit.PDFFileReaderTest.loggerTest" />
+      <item itemvalue="JUnit.PDFFileReaderTest.readTeastEmptyString" />
+      <item itemvalue="JUnit.PDFFileReaderTest.readTeastWrongFile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.cscience [war]" />
+        <item itemvalue="JUnit.PDFFileReaderTest.NullTeast" />
+        <item itemvalue="JUnit.PDFFileReaderTest.readTeastWrongFile" />
+        <item itemvalue="JUnit.PDFFileReaderTest" />
+        <item itemvalue="JUnit.PDFFileReaderTest.readTeastEmptyString" />
+        <item itemvalue="JUnit.PDFFileReaderTest.loggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -903,18 +976,51 @@
       <updated>1541708357203</updated>
       <workItem from="1541708365875" duration="1323000" />
       <workItem from="1541710956376" duration="28717000" />
-      <workItem from="1542664622847" duration="5875000" />
+      <workItem from="1542664622847" duration="20094000" />
+      <workItem from="1544040988595" duration="2988000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PDFFileReaderTest_loggerTest - 2018.12.05 at 23h 34m 19s.xml">
+      <configuration name="PDFFileReaderTest.loggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_NullTeast - 2018.12.05 at 23h 35m 04s.xml">
+      <configuration name="PDFFileReaderTest.NullTeast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_NullTeast - 2018.12.05 at 23h 38m 15s.xml">
+      <configuration name="PDFFileReaderTest.NullTeast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_readTeastEmptyString - 2018.12.05 at 23h 38m 51s.xml">
+      <configuration name="PDFFileReaderTest.readTeastEmptyString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_NullTeast - 2018.12.05 at 23h 45m 55s.xml">
+      <configuration name="PDFFileReaderTest.NullTeast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_NullTeast - 2018.12.05 at 23h 49m 17s.xml">
+      <configuration name="PDFFileReaderTest.NullTeast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest - 2018.12.05 at 23h 50m 24s.xml">
+      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest - 2018.12.05 at 23h 50m 46s.xml">
+      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_readTeastWrongFile - 2018.12.05 at 23h 58m 28s.xml">
+      <configuration name="PDFFileReaderTest.readTeastWrongFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_NullTeast - 2018.12.06 at 00h 01m 13s.xml">
+      <configuration name="PDFFileReaderTest.NullTeast" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35915000" />
+    <option name="totallyTimeSpent" value="53122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1872" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25328946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25657895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -924,19 +1030,20 @@
       <window_info id="Web" order="7" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33079433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33079433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Application Servers" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -958,6 +1065,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Locale.java">
@@ -968,23 +1093,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/1.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="4957" column="1" selection-start-line="4957" selection-start-column="1" selection-end-line="4957" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/jquery-3.3.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/Grab.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/bootstrap/3.3.7/d6aeba80236573ed585baa657dac2b951caa8e7e/bootstrap-3.3.7.jar!/META-INF/resources/webjars/bootstrap/3.3.7/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -999,47 +1112,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/runDebug.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/configs/InitConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/HomePage-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/configs/InitConfig.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/MyFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.1.1/acd910bc6b783c9e6fe138c08d4f148b691dfc3b/junit-platform-commons-1.1.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="351" selection-start-line="351" selection-end-line="351" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/HomePage-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1050,24 +1168,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFReader_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="304">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="525">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="30" column="81" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,7 +1285,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: javax:javaee-web-api:8.0</last-edited>
+          <last-edited>Gradle: org.slf4j:slf4j-log4j12:1.8.0-beta2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
