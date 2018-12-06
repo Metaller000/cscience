@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f4875f-0355-4fbc-b88b-a6ecd4f5846b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cscience.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java" afterDir="false" />
     </list>
@@ -57,7 +61,7 @@
           <entry key="java" value="14" />
           <entry key="js" value="5" />
           <entry key="jsp" value="2" />
-          <entry key="log" value="3" />
+          <entry key="log" value="20" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -69,7 +73,7 @@
           <entry key="JAVA" value="14" />
           <entry key="JSP" value="2" />
           <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -77,9 +81,9 @@
         <counts>
           <entry key="dummy" value="29" />
           <entry key="gradle" value="77" />
-          <entry key="java" value="1273" />
+          <entry key="java" value="1307" />
           <entry key="jsp" value="421" />
-          <entry key="properties" value="102" />
+          <entry key="properties" value="278" />
           <entry key="txt" value="3" />
           <entry key="xml" value="144" />
         </counts>
@@ -87,10 +91,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="77" />
-          <entry key="JAVA" value="1273" />
+          <entry key="JAVA" value="1307" />
           <entry key="JSP" value="421" />
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Properties" value="102" />
+          <entry key="Properties" value="278" />
           <entry key="XML" value="144" />
         </counts>
       </usages-collector>
@@ -110,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="364">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -133,15 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/start.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -173,9 +168,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>c:url</find>
+      <find>FILE</find>
     </findStrings>
     <replaceStrings>
       <replace>spring:url</replace>
+      <replace>INFOFILE</replace>
+      <replace>ERRORFILE</replace>
+      <replace>DEBUG</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -617,11 +616,6 @@
             <path>
               <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -723,7 +717,7 @@
     <property name="DefaultCfmlFileTemplate" value="ColdFusion File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544045442604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544135345507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build/libs/cscience.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -758,7 +752,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PDFFileReaderTest">
+  <component name="RunManager" selected="JUnit.PDFFileReaderTest.LoggerTest">
     <configuration name="PDFFileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscience_test" />
       <extension name="coverage">
@@ -769,6 +763,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
       <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFFileReaderTest.LoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
+      <option name="METHOD_NAME" value="LoggerTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -784,22 +794,6 @@
       <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
       <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
       <option name="METHOD_NAME" value="NullTeast" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PDFFileReaderTest.loggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cscience_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
-      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
-      <option name="METHOD_NAME" value="loggerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -913,17 +907,17 @@
       <item itemvalue="Tomcat Server.tomcat" />
       <item itemvalue="JUnit.PDFFileReaderTest.NullTeast" />
       <item itemvalue="JUnit.PDFFileReaderTest" />
-      <item itemvalue="JUnit.PDFFileReaderTest.loggerTest" />
       <item itemvalue="JUnit.PDFFileReaderTest.readTeastEmptyString" />
       <item itemvalue="JUnit.PDFFileReaderTest.readTeastWrongFile" />
+      <item itemvalue="JUnit.PDFFileReaderTest.LoggerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PDFFileReaderTest.LoggerTest" />
         <item itemvalue="JUnit.PDFFileReaderTest" />
         <item itemvalue="JUnit.PDFFileReaderTest.NullTeast" />
         <item itemvalue="JUnit.PDFFileReaderTest.readTeastWrongFile" />
         <item itemvalue="JUnit.PDFFileReaderTest.readTeastEmptyString" />
-        <item itemvalue="JUnit.PDFFileReaderTest.loggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -940,44 +934,44 @@
       <workItem from="1541708365875" duration="1323000" />
       <workItem from="1541710956376" duration="28717000" />
       <workItem from="1542664622847" duration="20094000" />
-      <workItem from="1544040988595" duration="4463000" />
+      <workItem from="1544040988595" duration="10677000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PDFFileReaderTest - 2018.12.05 at 23h 50m 46s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest_readTeastWrongFile - 2018.12.05 at 23h 58m 28s.xml">
-      <configuration name="PDFFileReaderTest.readTeastWrongFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest_NullTeast - 2018.12.06 at 00h 01m 13s.xml">
-      <configuration name="PDFFileReaderTest.NullTeast" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 13m 10s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 16m 14s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 17m 55s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 18m 50s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 19m 28s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 23m 08s.xml">
       <configuration name="PDFFileReaderTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 24m 24s.xml">
       <configuration name="PDFFileReaderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 00h 56m 35s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 05m 03s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 06m 08s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 09m 08s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 09m 53s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 20m 37s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 26m 43s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 28m 37s.xml">
+      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54597000" />
+    <option name="totallyTimeSpent" value="60811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1872" height="1080" extended-state="6" />
@@ -1021,6 +1015,45 @@
       <window_info anchor="right" id="CDI" order="11" />
       <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25657895" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50080776" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33079433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297062" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3297062" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.3294956" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1124,30 +1157,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/cscience.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1158,10 +1183,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logs/cscienceDebug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/cscienceInfo.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/cscienceError.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        <state relative-caret-position="375">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
         </state>
       </provider>
     </entry>

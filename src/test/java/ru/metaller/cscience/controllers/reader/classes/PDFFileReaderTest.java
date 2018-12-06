@@ -12,26 +12,35 @@ public class PDFFileReaderTest {
     MyFileReader pdfReader = new PDFFileReader();
 
     @Test
-    void NullTeast() {
+    void NullTest() {
         logger.info("тест на ноль...");
         logger.info(pdfReader.read(null).equals("")?"пройден":"не пройден");
     }
 
     @Test
-    void readTeastEmptyString() {
+    void readTestEmptyString() {
         logger.info("тест на пустую строку...");
         logger.info(pdfReader.read("").equals("")?"пройден":"не пройден");
     }
 
     @Test
-    void readTeastWrongDir() {
+    void readTestWrongDir() {
         logger.info("тест на неправильный адресс...");
         logger.info(pdfReader.read("/opt/file/dountexist.pdf").equals("")?"пройден":"не пройден");
     }
 
     @Test
-    void readTeastWrongFile() {
+    void readTestWrongFile() {
         logger.info("тест на чтение некоректного файла...");
         logger.info(pdfReader.read("/home/metaller/develop/java/cscience/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java").equals("")?"пройден":"не пройден");
+    }
+
+    @Test
+    void LoggerTest() {
+        logger.info(">>>");
+        logger.debug(">>>");
+        logger.warn(">>>");
+        logger.error(">>>");
+
     }
 }
