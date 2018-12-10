@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f4875f-0355-4fbc-b88b-a6ecd4f5846b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/abstractions/MyFileReaderAbstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/TextFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/LogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/TextFileReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/metaller/cscience/controllers/HomePage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java" afterDir="false" />
     </list>
@@ -61,10 +60,11 @@
           <entry key="cfm" value="1" />
           <entry key="css" value="3" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="23" />
           <entry key="js" value="5" />
           <entry key="jsp" value="2" />
-          <entry key="log" value="20" />
+          <entry key="log" value="23" />
+          <entry key="properties" value="1" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -73,18 +73,19 @@
           <entry key="CFML" value="1" />
           <entry key="CSS" value="3" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="23" />
           <entry key="JSP" value="2" />
           <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Properties" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="gradle" value="80" />
-          <entry key="java" value="1970" />
+          <entry key="gradle" value="81" />
+          <entry key="java" value="2202" />
           <entry key="jsp" value="421" />
           <entry key="properties" value="278" />
           <entry key="txt" value="3" />
@@ -93,8 +94,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="80" />
-          <entry key="JAVA" value="1970" />
+          <entry key="Groovy" value="81" />
+          <entry key="JAVA" value="2202" />
           <entry key="JSP" value="421" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="Properties" value="278" />
@@ -108,29 +109,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/TextFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/InputStreamReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/TextFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="167" column="25" lean-forward="true" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,20 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/TextFileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="410">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -406,9 +389,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6169504192000" />
+        <entry key="$PROJECT_DIR$" value="6169597426000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2986757445" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1382126365" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="776935489" />
       </map>
@@ -617,11 +600,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/abstractions/MyFileReaderAbstraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/MyFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/TextFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/TextFileReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/metaller/cscience/LogTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -662,6 +647,16 @@
             <path>
               <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
               <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -669,86 +664,6 @@
               <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cscience" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cscience" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cscience" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cscience" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cscience" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cscience" type="b2602c69:ProjectViewProjectNode" />
@@ -767,7 +682,7 @@
     <property name="DefaultCfmlFileTemplate" value="ColdFusion File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544391048291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544470908599" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build/libs/cscience.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -777,17 +692,20 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.metaller.cscience.controllers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB_INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.metaller.cscience.controllers.reader.classes" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.metaller.cscience.controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -802,7 +720,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PDFFileReaderTest.LoggerTest">
+  <component name="RunManager" selected="JUnit.LogTest.logFileCreatingTest">
+    <configuration name="LogTest.logFileCreatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscience_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.metaller.cscience.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.metaller.cscience" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.LogTest" />
+      <option name="METHOD_NAME" value="logFileCreatingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PDFFileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscience_test" />
       <extension name="coverage">
@@ -849,7 +783,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PDFFileReaderTest.readTeastEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextFileReaderTest.NullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscience_test" />
       <extension name="coverage">
         <pattern>
@@ -858,24 +792,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
-      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
-      <option name="METHOD_NAME" value="readTeastEmptyString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PDFFileReaderTest.readTeastWrongFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cscience_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.metaller.cscience.controllers.reader.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.metaller.cscience.controllers.reader.classes" />
-      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.PDFFileReaderTest" />
-      <option name="METHOD_NAME" value="readTeastWrongFile" />
+      <option name="MAIN_CLASS_NAME" value="ru.metaller.cscience.controllers.reader.classes.TextFileReaderTest" />
+      <option name="METHOD_NAME" value="NullTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -957,17 +875,17 @@
       <item itemvalue="Tomcat Server.tomcat" />
       <item itemvalue="JUnit.PDFFileReaderTest.NullTeast" />
       <item itemvalue="JUnit.PDFFileReaderTest" />
-      <item itemvalue="JUnit.PDFFileReaderTest.readTeastEmptyString" />
-      <item itemvalue="JUnit.PDFFileReaderTest.readTeastWrongFile" />
       <item itemvalue="JUnit.PDFFileReaderTest.LoggerTest" />
+      <item itemvalue="JUnit.LogTest.logFileCreatingTest" />
+      <item itemvalue="JUnit.TextFileReaderTest.NullTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogTest.logFileCreatingTest" />
+        <item itemvalue="JUnit.TextFileReaderTest.NullTest" />
         <item itemvalue="JUnit.PDFFileReaderTest.LoggerTest" />
         <item itemvalue="JUnit.PDFFileReaderTest" />
         <item itemvalue="JUnit.PDFFileReaderTest.NullTeast" />
-        <item itemvalue="JUnit.PDFFileReaderTest.readTeastWrongFile" />
-        <item itemvalue="JUnit.PDFFileReaderTest.readTeastEmptyString" />
       </list>
     </recent_temporary>
   </component>
@@ -984,26 +902,11 @@
       <workItem from="1541708365875" duration="1323000" />
       <workItem from="1541710956376" duration="28717000" />
       <workItem from="1542664622847" duration="20094000" />
-      <workItem from="1544040988595" duration="21484000" />
+      <workItem from="1544040988595" duration="23743000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 23m 08s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest - 2018.12.06 at 00h 24m 24s.xml">
-      <configuration name="PDFFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 00h 56m 35s.xml">
-      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 05m 03s.xml">
-      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 06m 08s.xml">
-      <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 09m 08s.xml">
       <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
     </history-entry>
@@ -1019,12 +922,28 @@
     <history-entry file="PDFFileReaderTest_LoggerTest - 2018.12.07 at 01h 28m 37s.xml">
       <configuration name="PDFFileReaderTest.LoggerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LogTest_logFileCreatingTest - 2018.12.10 at 00h 44m 26s.xml">
+      <configuration name="LogTest.logFileCreatingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogTest_logFileCreatingTest - 2018.12.10 at 00h 44m 44s.xml">
+      <configuration name="LogTest.logFileCreatingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogTest_logFileCreatingTest - 2018.12.10 at 22h 37m 51s.xml">
+      <configuration name="LogTest.logFileCreatingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextFileReaderTest_NullTest - 2018.12.10 at 22h 38m 58s.xml">
+      <configuration name="TextFileReaderTest.NullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogTest_logFileCreatingTest - 2018.12.10 at 22h 40m 37s.xml">
+      <configuration name="LogTest.logFileCreatingTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71618000" />
+    <option name="totallyTimeSpent" value="73877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1872" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25657895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1036,7 +955,7 @@
       <window_info id="Web" order="7" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33079433" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33079433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1115,7 +1034,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java</url>
-          <line>19</line>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -1204,22 +1123,6 @@
         <state relative-caret-position="-900" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/cscienceDebug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/cscienceInfo.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/cscienceError.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -1227,20 +1130,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/MyFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1261,20 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="167" column="25" lean-forward="true" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1289,20 +1164,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="167" column="25" lean-forward="true" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/PDFFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/cscienceInfo.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/cscienceError.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/cscienceDebug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/MyFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/metaller/cscience/controllers/reader/classes/TextFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/LogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/metaller/cscience/controllers/reader/classes/TextFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1363,7 +1302,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cscience_main|cscience</last-edited>
+          <last-edited>cscience_test|cscience</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1388,7 +1327,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: org.slf4j:slf4j-log4j12:1.8.0-beta2</last-edited>
+          <last-edited>Gradle: log4j:log4j:1.2.17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

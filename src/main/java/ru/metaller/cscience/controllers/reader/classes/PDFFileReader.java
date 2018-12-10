@@ -16,6 +16,7 @@ public class PDFFileReader extends MyFileReaderAbstraction implements MyFileRead
 
     @Override
     public String read(String inputFile) {
+        //todo нужно переделать, не подходит для чтения текста из PDF файлов.
         if (checkFile(inputFile)) {
             try {
                 PDDocument document = PDDocument.load(getFile());
